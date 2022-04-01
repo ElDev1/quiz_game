@@ -1,6 +1,6 @@
-const data = [
+export const data = [
     {
-        question: 'whats your name',
+        question: 'Whats your name?',
         choices: [
             'juan',
             'martin',
@@ -10,7 +10,7 @@ const data = [
         answer: 'lolo'
     },
     {
-        question: 'whats my name',
+        question: 'Whats my name?',
         choices: [
             'fede',
             'lucas',
@@ -18,6 +18,16 @@ const data = [
             'lalo'
         ],
         answer: 'lalo'
+    },
+    {
+        question: 'Who is faster?',
+        choices: [
+            'Usain Bolt',
+            'Rayo McQueen',
+            'Flash',
+            'Sonic'
+        ],
+        answer: 'Rayo McQueen'
     },
 
 ]
