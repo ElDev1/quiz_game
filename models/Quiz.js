@@ -1,4 +1,4 @@
-import { question } from './Question'
+import { Question } from './Question.js'
 
 export class Quiz {
     
@@ -19,7 +19,7 @@ export class Quiz {
      * @returns {Question}
      */
     getQuestionIndex() {
-        return this.questions[this.getQuestionIndex];
+        return this.questions[this.questionsIndex];
     }
 
     /**
@@ -27,6 +27,7 @@ export class Quiz {
      * @param {string} answer 
      */
     guess(answer) {
+        console.log(answer);
         if(this.getQuestionIndex().correctAnswer(answer)) {
             this.score++;
         }
