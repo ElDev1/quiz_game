@@ -1,2 +1,1 @@
-# quiz_game
-quiz game created using vanilla javascript
+## Simple quiz game created using JS vanilla and OOP paradigm
